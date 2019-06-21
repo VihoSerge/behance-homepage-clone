@@ -1,0 +1,141 @@
+.header-middle {
+  background-image: url('https://a5.behance.net/8bdb0c24a362c411637eaab52094f9177715e36b/img/site/1x/cta-header.jpg');
+  height: 210px;
+}
+
+header {
+  min-height: 60px;
+}
+
+.header-top {
+  background-color: #191919;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+.header-top .nav-menu.menu-right svg {
+  fill: #a4a4a4;
+  min-width: 16px;
+}
+
+.header-top .nav-menu.menu-right svg.logo-adobe {
+  fill: #a4a4a4;
+  min-width: 70px;
+}
+
+.header-top .nav-menu.menu-right .nav-menu-item {
+  fill: #a4a4a4;
+  min-width: 16px;
+}
+
+.header-top .navbar {
+  padding: 0;
+}
+
+.header-bottom {
+  position: sticky;
+  top: 60px;
+  width: 100%;
+  z-index: 5;
+}
+
+.second-nav  {
+  box-shadow: 0 0 4px rgba(25,25,25,.1);
+}
+
+.second-nav .nav-menu {
+  justify-content: center;
+}
+
+.second-nav .nav-menu-item {
+  color: #000;
+}
+
+.btn-primary {
+  background-color: #0057ff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: rgba(0, 87, 255, 0.8);
+}
+
+.nav-logo {
+  width: 105px;
+}
+
+.nav-logo svg {
+  fill: #fff;
+  height: 50px;
+  width: 100%;
+}
+
+.nav-tooggle {
+  align-items: flex-start;
+}
+
+
+.nav-search svg {
+  fill: #fff;
+  width: 16px;
+}
+
+.gallery-item {
+  padding: 15px 0;
+  height: 268px;
+}
+
+
+.gallery-item img {
+  height: 100%;
+  width: 100%;
+}
+
+.gallery-item .overlay {
+  bottom: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.footer {
+  background-color: #191919;
+  padding: 5px 0;
+}
+
+.footer .logo-adobe {
+  fill: #a4a4a4;
+  width: 56px;
+}
+
+.footer-links .nav-menu .nav-menu-item {
+  color: #a4a4a4;
+}
+.footer-links .nav-menu .nav-menu-item:first-child {
+  padding-left: 0;
+}
+
+@media (min-width: 992px) {
+  .gallery .lg-3 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+
+  .nav-search {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-tooggle {
+    display: flex;
+  }
+
+  footer {
+    display: none;
+  }
+}
